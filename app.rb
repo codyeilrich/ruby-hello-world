@@ -23,7 +23,7 @@ def configure_database
 end
 
 configure do
-  puts "Run cody app take 3..."
+  puts "Run cody app take 4..."
 
   unless ENV["DATABASE_SERVICE_HOST"].nil? && ENV["DATABASE_TEST_SERVICE_HOST"].nil?
     configure_database
